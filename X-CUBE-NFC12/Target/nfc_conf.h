@@ -38,9 +38,9 @@ extern "C" {
 #define RFAL_FEATURE_WAKEUP_MODE                    false /*!< Enable/Disable RFAL support for the Wake-Up mode                          */
 #define RFAL_FEATURE_LOWPOWER_MODE                  false /*!< Enable/Disable RFAL support for the Low Power mode                        */
 #define RFAL_FEATURE_NFCA                           true /*!< Enable/Disable RFAL support for NFC-A (ISO14443A)                         */
-#define RFAL_FEATURE_NFCB                           false /*!< Enable/Disable RFAL support for NFC-B (ISO14443B)                         */
-#define RFAL_FEATURE_NFCF                           false /*!< Enable/Disable RFAL support for NFC-F (FeliCa)                            */
-#define RFAL_FEATURE_NFCV                           false /*!< Enable/Disable RFAL support for NFC-V (ISO15693)                          */
+#define RFAL_FEATURE_NFCB                           true  /*!< Enable/Disable RFAL support for NFC-B (ISO14443B)                         */
+#define RFAL_FEATURE_NFCF                           true /*!< Enable/Disable RFAL support for NFC-F (FeliCa)                            */
+#define RFAL_FEATURE_NFCV                           true /*!< Enable/Disable RFAL support for NFC-V (ISO15693)                          */
 #define RFAL_FEATURE_T1T                            false /*!< Enable/Disable RFAL support for T1T (Topaz)                               */
 #define RFAL_FEATURE_T2T                            false /*!< Enable/Disable RFAL support for T2T                                       */
 #define RFAL_FEATURE_T4T                            false /*!< Enable/Disable RFAL support for T4T                                       */
